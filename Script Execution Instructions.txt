@@ -1,0 +1,26 @@
+You have to run the program as 'python wrap_bot.py'.
+
+How to run this script:
+
+Pre-requisite(s):
+
+1. Install Python Selenium web driver package
+2. Test Environment URL: https://www.qa.wrapdev.net/
+
+Purpose of Script:
+This is a very simple and dirty script per se to serve the following:
+1. Launch the web browser through Selenium
+2. Goes to the website
+3. Using DOM, it locates the Login button
+4. Clicks on it
+5. It then locates the 'Sign Up' button
+6. It then clicks on the 'Free Small Business' button and enters Username and password
+
+NOTE: There seems to be a bug somewhere on this page because the website thinks the username used
+already exists, but if you click on 'Create Account' again after waiting for 5-10 seconds, it then succeeds.
+
+Improvement/Comment:
+There are some improvements and optimizations that can be done to this *.py script but overall, it is 
+just my idea of how to do it.
+Later on in the week, I will attempt to do this in Java with Junit, and possibly later on with testNG.
+
